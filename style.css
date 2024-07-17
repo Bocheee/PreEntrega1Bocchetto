@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+
+.container-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.contenedor-presentacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 900px;
+    background: #264653;
+    box-shadow: 0 0 80px 10px #669bbc;
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+
+.contenedor-presentacion h1{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    color: aliceblue;
+
+}
+
+.contenedor-presentacion p{
+    font-family: "Dancing Script", cursive;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.contenedor-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contenedor-redes{
+    width: 50%;
+}
+
+.contenedor-redes ul{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: #264653;
+}
+
+.contenedor-redes li{
+    list-style: none;
+    font-size: 40px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.contenedor-redes a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
